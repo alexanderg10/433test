@@ -1,3 +1,6 @@
-# 433test
-testing my setup
-test cuz shit isn't working
+README
+================
+Alex G
+2/5/2021
+
+
