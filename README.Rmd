@@ -1,0 +1,15 @@
+---
+title: "README"
+author: "Alex G"
+date: "2/5/2021"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+install.packages("rmarkdown")
+```
+
