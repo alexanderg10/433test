@@ -16,7 +16,7 @@ colnames(NYbridges) = c("Structure_Number", "Year_Built", "FIPS_Code", "Deck_Con
 ggplot(subset(NYbridges,!(Superstructure_Condition == "N")), aes(x = Superstructure_Condition, y = Year_Built))+
   geom_jitter(shape = 1, col = "blue", size = .3)+
   ggtitle("Bridges: Superstructure Condition vs. Year Built")+
-  xlab("Superstructure Condition (low = bad, high = good")+
+  xlab("Superstructure Condition (low = bad, high = good)")+
   ylab("Year Built")
 ```
 
