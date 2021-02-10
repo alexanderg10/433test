@@ -25,7 +25,7 @@ ggplot(subset(NYbridges,!(Superstructure_Condition == "N")), aes(x = Superstruct
 ``` r
 ggplot(subset(NYbridges,!(Substructure_Condition == "N")), aes(x = Substructure_Condition, y = Year_Built))+
   geom_jitter(shape = 1, col = "red", size = .3)+
-  ggtitle("Bridges: Superstructure Condition vs. Year Built")+
+  ggtitle("Bridges: Substructure(s) Condition vs. Year Built")+
   xlab("Substructure(s) Condition (low = bad, high = good)")+
   ylab("Year Built")
 ```
